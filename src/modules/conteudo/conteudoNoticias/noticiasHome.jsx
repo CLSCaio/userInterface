@@ -36,8 +36,7 @@ export default function NoticiasHome() {
       
   
         </div>
-        <div className="containerPrincipalHome" id="conteudo">
-        </div>
+        <div className="containerPrincipalHome" id="conteudo" />
       </div>
     )
   }

@@ -10,7 +10,6 @@ export default function retonarNoticias(section) {
     .then(data => data.results)
     .then(i  => {
       document.getElementById('conteudo').innerHTML = ''
-      console.log(i[10].multimedia, `url: ${i[10].multimedia[0].url}`)
 
       for(let x=10; x <= 21; x++) {
       

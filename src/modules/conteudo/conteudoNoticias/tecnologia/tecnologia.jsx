@@ -2,6 +2,7 @@ import '../styles.css'
 import redirecionamentoDePagina from '../../../../services/functions/outras/redirecionamentoDePagina'
 
 export default function Tecnologia() {
+  
   return (
     <div className="divPrincipalHome" 
       onClick={() => redirecionamentoDePagina('technology')}

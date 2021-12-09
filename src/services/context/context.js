@@ -28,7 +28,8 @@ export default function MenuProvider({ children }) {
         valueData, setValueData,
         valueSenha, setValueSenha,
         displayUsuariosCadastrados, setDisplayUsuariosCadastrados,
-        buttonTudoOk, setButtonTudoOk
+        buttonTudoOk, setButtonTudoOk,
+  
       }}
     >
       {children}
@@ -50,7 +51,8 @@ export function useMenuContext() {
     valueData, setValueData,
     valueSenha, setValueSenha,
     displayUsuariosCadastrados, setDisplayUsuariosCadastrados,
-    buttonTudoOk, setButtonTudoOk 
+    buttonTudoOk, setButtonTudoOk,
+
   } = context;
   return { 
     openMenu, nameLogo, 
@@ -63,6 +65,7 @@ export function useMenuContext() {
     valueData, setValueData,
     valueSenha, setValueSenha,
     displayUsuariosCadastrados, setDisplayUsuariosCadastrados,
-    buttonTudoOk, setButtonTudoOk
+    buttonTudoOk, setButtonTudoOk,
+    
   };
 }

@@ -5,8 +5,8 @@ import { UseOpenMenu } from '../../../../services/context/'
 
 const Navegation = () => {
   const { setNameLogo, displayUsuariosCadastrados } = UseOpenMenu()
-
-    return (
+  
+  return (
     <NavLinks className="navigation">
       <ul>
         <Link 

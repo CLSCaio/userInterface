@@ -9,8 +9,8 @@ import EsqueceuSenha from "../../pages/esqueceuSenha"
 import NotFound from '../../pages/notFound'
 import UsuariosCadastrados from "../conteudo/usuariosCadastrados"
 
-
 export default function RoutesLinks() {
+
   return (
     <Routes>
       <Route 
@@ -28,6 +28,7 @@ export default function RoutesLinks() {
       <Route 
         path="/userInterface"
         element={<UserInterface />}
+        exact
       />
 
       <Route

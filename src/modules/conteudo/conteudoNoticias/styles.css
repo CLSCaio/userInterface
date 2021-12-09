@@ -18,7 +18,7 @@
 }
 
 #conteudo {
-  display: none;
+  display: grid;
 }
 
 #conteudo a {
@@ -72,8 +72,6 @@
   text-align: center;
 }
   
-
-
 .divPrincipalHome p {
   text-align: left;
   text-indent: 1.5rem;
