@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Estonia&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  color: var(--second-color)
+}
+
+:root {
+  --main-color: whitesmoke;
+  --second-color: black;
+
+  --text-color-hover:skyblue;
+
+  --third-color: lavender;
+
+  --reserv-color: #242424;
+}
+
+.darkMode:root {
+  --main-color: #242424;
+  --second-color: lavender;
+
+  --third-color: black;
+
+  --text-color-hover:#41f0a8;
+
+  --reserv-color: lavender;
+}
+
+html {
+  font: 400 12px 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main-color);
+}
+
+@media(min-width: 600px) {
+  html {
+    font: 400 14px 'Roboto';
+  }
+}
+
+@media(min-width: 1000px) {
+  html {
+    font: 400 16px 'Roboto';
+  }
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.invibleDiv {
+  height: 50px;
+  background: transparent;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+p, li, a {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text-color-hover);
+  text-decoration: underline;
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: var(--third-color);
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--second-color);
+  border-radius: 15px;
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid var(--second-color);
+}
+
+button {
+  background: none;
+  outline: none;
+  border: 1px solid var(--second-color);
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  font-size: 1.1rem;
+}
+
+button:active{
+  transform: scale(1.1);
+}
+
+.error {
+  color: red;
+  margin-left: 1rem;
+  display: none;
+} 
+
+main {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}

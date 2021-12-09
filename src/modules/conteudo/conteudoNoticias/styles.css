@@ -1,0 +1,85 @@
+.containerPrincipalHome{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  margin: 3rem 0;
+  align-items: center;
+  justify-items: center;
+  gap: 4rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+@media (min-width: 800px) {
+  .containerPrincipalHome{
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+#conteudo {
+  display: none;
+}
+
+#conteudo a {
+  display: flex;
+  margin: 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  height: 100%;
+  max-height: 600px;
+  max-width: 1280px;
+  padding: 1.2rem;
+}
+
+@media (min-width: 800px) {
+  .containerPrincipalHome{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+#conteudo a h1{
+  margin: 0 10px;
+}
+
+#conteudo div img {
+  width: 90%;
+  height: 100%;
+}
+
+.divPrincipalHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+  height: 30rem;
+  border: 1px solid var(--second-color);
+  border-radius: 1.1rem;
+  gap: 1.2rem;
+  cursor: pointer;
+}
+
+.divPrincipalHome img {
+  width: 85%;
+  height: 50%;
+  border-radius: 1.1rem;
+}
+
+.divPrincipalHome h1 {
+  text-align: center;
+}
+  
+
+
+.divPrincipalHome p {
+  text-align: left;
+  text-indent: 1.5rem;
+  margin: 0 2rem;
+}
+
+.divPrincipalHome:hover {
+  transform: scale(1.1);
+}

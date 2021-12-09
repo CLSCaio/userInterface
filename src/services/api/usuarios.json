@@ -1,0 +1,13 @@
+[
+  {  
+    "id": 1,
+    "nome": "Administrador",
+    "data": "",
+    "email": "admin",
+    "cpf": "",
+    "cep": "",
+    "senha": "@dmin",
+    "type": "admin" 
+  }
+]
+
