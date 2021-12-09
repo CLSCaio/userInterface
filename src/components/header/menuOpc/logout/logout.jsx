@@ -9,7 +9,7 @@ const Logout = () => {
     return (
     <DivUlLi className="navigation">
       <ul>
-        <Link to="/login" onClick={() => logoutUser()}>
+        <Link to="/" onClick={() => logoutUser()}>
           <li onClick={() => setNameLogo('Home')}>Logout</li>
         </Link>
       </ul>

@@ -13,7 +13,7 @@ export default function NotFound() {
   }
 
   return (
-    <Link to="/login" class="notFound">
+    <Link to="/" class="notFound">
       <img src={error404.error3}
         alt="Imagem não pode ser carregada - Error 404, página não encontrada"
       />

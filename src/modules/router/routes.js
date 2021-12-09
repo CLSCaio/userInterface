@@ -14,7 +14,7 @@ export default function RoutesLinks() {
   return (
     <Routes>
       <Route 
-        path="/login"
+        path="/"
         element={<LoginInterface />}
         exact
       />

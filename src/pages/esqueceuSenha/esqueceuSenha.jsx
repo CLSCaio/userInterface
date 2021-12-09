@@ -80,7 +80,7 @@ export default function EsqueceuSenha() {
         </button>
        
 
-        <Link to="/login">
+        <Link to="/">
           <button onClick={() => setNameLogo('Home')}>
             Voltar ao login
           </button>
